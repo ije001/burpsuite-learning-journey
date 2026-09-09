@@ -1,4 +1,4 @@
-**Burp Suite Learning Journey & Bottlenecks - Project Documentation**
+## Burp Suite Learning Journey & Bottlenecks - Project Documentation
 
 **Author: Ijeoma | Date: August 2026 | Status: Work in Progress (30+ PortSwigger Labs Completed)**
 
