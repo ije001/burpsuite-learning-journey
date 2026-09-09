@@ -1,8 +1,8 @@
-Burp Suite Learning Journey & Bottlenecks - Project Documentation
+**Burp Suite Learning Journey & Bottlenecks - Project Documentation**
 
-Author: Ijeoma | Date: August 2026 | Status: Work in Progress (30+ PortSwigger Labs Completed)
+**Author: Ijeoma | Date: August 2026 | Status: Work in Progress (30+ PortSwigger Labs Completed)**
 
-Executive Summary
+**Executive Summary**
 
 Over the past weeks, I've extensively used Burp Suite Community Edition for web application security testing, specifically focusing on SQL injection exploitation. This document outlines my learning journey, critical issues encountered, solutions implemented, and key takeaways for future reference.
 
@@ -91,3 +91,11 @@ Professional Workflow:
 **7.**	Test payloads
 
 Why This Matters: Early on, I wasted ~30 minutes with Intercept ON, wondering why nothing was loading. Flipping to OFF instantly solved it.
+
+## Key Takeaways
+
+- Tool orchestration matters — always start Burp before enabling the proxy
+- SSL certificate trust is foundational to HTTPS interception, understand it once, never troubleshoot it again
+- Intercept OFF is your default state — HTTP History is where the real work happens
+- FoxyProxy transforms Burp from frustrating to seamless —install it immediately
+- 30+ PortSwigger labs completed — every bottleneck encountered was a lesson that stuck
