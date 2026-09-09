@@ -6,9 +6,9 @@
 
 Over the past weeks, I've extensively used Burp Suite Community Edition for web application security testing, specifically focusing on SQL injection exploitation. This document outlines my learning journey, critical issues encountered, solutions implemented, and key takeaways for future reference.
 
-1. Initial Setup & Configuration Challenges
+## 1. Initial Setup & Configuration Challenges
 
-1.1 Proxy Configuration Issues
+**1.1 Proxy Configuration Issues**
 
 Problem: Firefox wouldn't connect to Burp Suite even when proxy was configured.
 
@@ -28,7 +28,7 @@ Timeline:
 
 Learning: Tool orchestration matters - the order of operations is critical.
 
-1.2 SSL Certificate Error
+**1.2 SSL Certificate Error**
 
 Problem: "Software is preventing Firefox from safely connecting to this site" error on PortSwigger labs.
 
@@ -44,7 +44,7 @@ Solution:
 
 Impact: Without this, HTTPS sites couldn't be accessed through Burp.
 
-1.3 FoxyProxy Extension Setup
+**1.3 FoxyProxy Extension Setup**
 
 Problem: Constantly enabling/disabling manual proxy settings was tedious and error-prone.
 
@@ -56,9 +56,9 @@ Solution: Install FoxyProxy Standard extension
 
 Benefit: Professional workflow - switch seamlessly between Burp testing and normal browsing.
 
-2. Understanding Burp Suite's Core Concepts
+## 2. Understanding Burp Suite's Core Concepts
 
-2.1 Intercept ON vs OFF - Critical Distinction
+**2.1 Intercept ON vs OFF - Critical Distinction**
 
 Initial Confusion:
 
@@ -74,7 +74,7 @@ Intercept ON BLOCKS every request, waits for manual forward When you need to mod
 
 Intercept OFF Requests flow normally, still captured in history 99% of labs - normal browsing with capture
 
-Professional Workflow:
+## Professional Workflow:
 
 **1.**	Set Intercept to OFF (default)
 
